@@ -1,0 +1,144 @@
+* {
+  /*width: 100%;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  width: 960px;
+  margin: auto;
+}
+
+section {
+  width: 960px;
+}
+
+header {
+  width: 960px;
+  height: 60px;
+  position: relative;
+}
+
+#mainicon {
+  position: absolute;
+  float: left;
+}
+
+.delicious {
+  position: absolute;
+  float: left;
+  left: 45px;
+}
+
+.delicious h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+}
+
+.delicious p {
+  font-size: 10px;
+}
+
+.icons {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 0px;
+}
+
+.icons img:hover {
+  color: blue;
+}
+
+#pint {
+  margin-right: 5px;
+}
+
+#Title {
+  position: relative;
+  height: 60px;
+}
+
+#Title p{
+  font-size: 10px;
+  color: lightgrey;
+}
+
+#Title h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#print {
+  float: right;
+  right: 0px;
+  bottom: 50px;
+
+}
+
+#ingredients {
+  position:relative;
+
+}
+
+.formleft {
+  position:absolute;
+  top: 50px;
+  left: 120px;
+  font-size: 1.2em;
+  font-family: 'Patrick Hand', cursive;
+
+}
+
+.formright {
+  position:absolute;
+  top: 50px;
+  left: 500px;
+  font-size: 1.2em;
+  font-family: 'Patrick Hand', cursive;
+
+}
+
+.ing label {
+  display:block;
+  margin-bottom: 2px;
+  margin-top: -10%;
+}
+
+p {
+font-family: "Droid Serif", serif;
+font-size: 20px;
+text-indent: 30px;
+}
+
+#bodytext {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#pizza {
+  width: 960px;
+  height: auto;
+}
+#profilephoto {
+float: left;
+}
+
+.btmtext {
+  text-align: center;
+}
+
+#words {
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+#food {
+  text-indent: 0;
+  display: inline-block;
+  width: 70%;
+}
